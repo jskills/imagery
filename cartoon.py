@@ -2,6 +2,13 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+### TODO
+# directory or file as first arg
+# options for conversion type : grayscale, edged, cartoon or all
+# options for titles
+# standard output directory
+# adapt output file names based on filename being processed
+
 
 # load and plot image
 img = cv2.imread("./imagery-samples/0.jpg")
